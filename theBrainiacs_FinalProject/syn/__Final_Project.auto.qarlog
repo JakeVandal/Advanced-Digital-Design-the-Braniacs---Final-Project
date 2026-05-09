@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/__Final_Project.auto.qarlog
+
+Archive:	C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/__Final_Project.auto.qar
+Date:		Sat May 09 12:53:18 2026
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/db/Final_Project.cbx.xml
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/db/Final_Project.qpf
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/output_files/Final_Project.flow.rpt
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/output_files/Final_Project.map.rpt
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/syn/output_files/Final_Project.map.summary
+Final_Project.qsf
+Final_Project_ID.hex
+Final_Project_ID.mif
+Final_Project_PSWD.hex
+Final_Project_PSWD.mif
+ID_ROM.qip
+ID_ROM.v
+ID_ROM_bb.v
+PASSWORD_ROM.qip
+PASSWORD_ROM.v
+PASSWORD_ROM_bb.v
+c:/intelfpga/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
