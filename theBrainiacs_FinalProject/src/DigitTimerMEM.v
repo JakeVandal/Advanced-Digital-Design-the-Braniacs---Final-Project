@@ -16,7 +16,7 @@ module digitTimerMEM(
 
     wire one_sec_pulse;
 
-    onesecTimer first_timer(timer_enable, one_sec_pulse, clk, rst);
+    onesecTimer_LFSR first_timer(timer_enable, one_sec_pulse, clk, rst);
 
     always @(posedge clk) begin
         if (rst == 1'b0) begin
