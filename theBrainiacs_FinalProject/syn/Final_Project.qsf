@@ -70,3 +70,4 @@ set_global_assignment -name QIP_FILE ID_ROM.qip
 set_global_assignment -name MIF_FILE Final_Project_PSWD.mif
 set_global_assignment -name HEX_FILE Final_Project_PSWD.hex
 set_global_assignment -name QIP_FILE PASSWORD_ROM.qip
+set_global_assignment -name QIP_FILE SCORE_RAM.qip

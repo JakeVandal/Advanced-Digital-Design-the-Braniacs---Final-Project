@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vSCORE_RAM
+Z0 !s110 1778449817
+!i10b 1
+!s100 PEe3lzG1BjhHe857:@`>32
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYboDnT[hUKm8PLKonB1le1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking
+w1778442539
+8C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v
+FC:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v
+!i122 30
+L0 40 65
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1778449817.000000
+!s107 C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@s@c@o@r@e_@r@a@m
+vScore_Tracker
+R0
+!i10b 1
+!s100 SzeTPa7XKKhdQMKQ`bWi11
+R1
+IGSEIKcP_5F2I[MCbKQC]g2
+R2
+R3
+w1778449628
+8C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v
+FC:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v
+!i122 31
+L0 1 107
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v|
+!i113 1
+R6
+R7
+n@score_@tracker
+vScore_Tracker_testbench
+!s110 1778449818
+!i10b 1
+!s100 _9ckjR053Wo:i071TzDlK3
+R1
+I[mHzI`cOA^MAB8[CJFSUG0
+R2
+R3
+w1778449803
+8C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v
+FC:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v
+!i122 32
+L0 2 142
+R4
+r1
+!s85 0
+31
+!s108 1778449818.000000
+!s107 C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v|
+!i113 1
+R6
+R7
+n@score_@tracker_testbench

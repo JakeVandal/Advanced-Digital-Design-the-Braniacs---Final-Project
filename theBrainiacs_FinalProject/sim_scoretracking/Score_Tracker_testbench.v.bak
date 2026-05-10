@@ -1,0 +1,77 @@
+`timescale 1 ns / 100 ps
+module Score_Tracker_testbench();
+    reg score_req, clk, rst;
+    reg [2:0] player_id;
+    reg [7:0] score;
+    wire [2:0] player_id_out;
+    wire [7:0] score_out, ram_value;
+    wire personal_winner, global_winner;
+    wire wren;
+
+    //wren 
+    Score_Tracker ST(score_req, player_id, score, ram_value, wren, player_id_out, score_out, personal_winner, global_winner, clk, rst);
+    SCORE_RAM RAM(player_id_out, clk, score_out, global_winner, ram_value);
+    initial begin
+        clk = 1'b0;
+        forever #10 clk = ~clk; // 20ns clock period
+    end
+
+    initial begin
+        rst = 1'b0;
+        score_req = 1'b0;
+        player_id = 3'b000;
+        score = 8'h00;
+        #25 rst = 1'b1;
+ 
+        // wait for RAMINIT to finish (8 cycles)
+        #160;
+ 	@(posedge clk);
+        // Test 1: Player 1, score=10, RAM starts at 0 -> personal=1, global=1
+        #20 player_id = 3'b001; score = 8'd10; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+ 
+        // Test 2: Player 2, score=12, RAM starts at 0 -> personal=1, global=1
+	@(posedge clk);
+        #20 player_id = 3'b010; score = 8'd12; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+ 
+        // Test 3: Player 1 again, score=15, RAM has 10 -> personal=1, global=1
+	@(posedge clk);
+        #20 player_id = 3'b001; score = 8'd15; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+ 
+        // Test 4: Player 3, score=9, RAM starts at 0 -> personal=1, global=0 (p1 leads with 15)
+	@(posedge clk);
+        #20 player_id = 3'b011; score = 8'd9; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+ 
+        // Test 5: Player 2 again, score=13, RAM has 12 -> personal=1, global=0 (p1 leads with 15)
+	@(posedge clk);
+        #20 player_id = 3'b010; score = 8'd13; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+ 
+        // Test 6: Player 2 lower score, score=5, RAM has 13 -> personal=0, global=0
+	@(posedge clk);
+        #20 player_id = 3'b010; score = 8'd5; score_req = 1'b1;
+	@(posedge clk);
+	@(posedge clk);
+        #20 score_req = 1'b0;
+        #160;
+
+    end
+endmodule

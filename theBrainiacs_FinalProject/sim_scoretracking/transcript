@@ -1,0 +1,184 @@
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v failed with 1 errors.
+# Compile of Score_Tracker_testbench.v failed with 6 errors.
+# 3 compiles, 2 failed with 7 errors.
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v failed with 6 errors.
+# 3 compiles, 1 failed with 6 errors.
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v failed with 6 errors.
+# 3 compiles, 1 failed with 6 errors.
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v failed with 6 errors.
+# 3 compiles, 1 failed with 6 errors.
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v failed with 6 errors.
+# 3 compiles, 1 failed with 6 errors.
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Score_Tracker_testbench -L altera_mf_ver -L altera_mf
+# vsim -gui work.Score_Tracker_testbench -L altera_mf_ver -L altera_mf 
+# Start time: 16:11:14 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 1000 ns
+run 1000 ns
+add wave sim:/Score_Tracker_testbench/RAM/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 1000 ns
+add wave -r /*
+quit -sim
+# End time: 16:22:59 on May 10,2026, Elapsed time: 0:11:45
+# Errors: 0, Warnings: 1
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:24:43 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+quit -sim
+# End time: 16:25:11 on May 10,2026, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:25:33 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+quit -sim
+# End time: 16:26:00 on May 10,2026, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:27:22 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+quit -sim
+# End time: 16:33:05 on May 10,2026, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:33:19 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+quit -sim
+# End time: 16:39:19 on May 10,2026, Elapsed time: 0:06:00
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:39:32 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+quit -sim
+# End time: 16:45:47 on May 10,2026, Elapsed time: 0:06:15
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:45:57 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+# ** Note: $stop    : C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v(84)
+#    Time: 1390 ns  Iteration: 0  Instance: /Score_Tracker_testbench
+# Break in Module Score_Tracker_testbench at C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v line 84
+quit -sim
+# End time: 16:50:14 on May 10,2026, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 2
+# Compile of SCORE_RAM.v was successful.
+# Compile of Score_Tracker.v was successful.
+# Compile of Score_Tracker_testbench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench
+# vsim -gui -L altera_mf_ver -L altera_mf work.Score_Tracker_testbench 
+# Start time: 16:50:30 on May 10,2026
+# Loading work.Score_Tracker_testbench
+# Loading work.Score_Tracker
+# Loading work.SCORE_RAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/Score_Tracker_testbench/ST/*
+run 2000 ns
+# End time: 16:52:08 on May 10,2026, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2

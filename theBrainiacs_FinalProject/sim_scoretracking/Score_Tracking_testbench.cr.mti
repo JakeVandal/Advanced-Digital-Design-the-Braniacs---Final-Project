@@ -1,0 +1,22 @@
+C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v {1 {vlog -work work -stats=none C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Score_Tracker_testbench
+
+Top level modules:
+	Score_Tracker_testbench
+
+} {} {}} C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v {1 {vlog -work work -stats=none C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/Score_Tracker.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Score_Tracker
+
+Top level modules:
+	Score_Tracker
+
+} {} {}} C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v {1 {vlog -work work -stats=none C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_scoretracking/SCORE_RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SCORE_RAM
+
+Top level modules:
+	SCORE_RAM
+
+} {} {}}

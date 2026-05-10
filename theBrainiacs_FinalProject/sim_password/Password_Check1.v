@@ -1,4 +1,4 @@
-module Password_Check(digit, btn, logout_game_control, guest, matched_id, internal_id, rom_value, addr, logout, guest_pswd, internal_id_out, logged_in, clk, rst);
+module Password_Check1(digit, btn, logout_game_control, guest, matched_id, internal_id, rom_value, addr, logout, guest_pswd, internal_id_out, logged_in, clk, rst);
     input btn, logout_game_control, guest, matched_id, clk, rst;
     input [2:0] internal_id; // internal ID from ID_Check
     input [3:0] digit; // digit entered by user

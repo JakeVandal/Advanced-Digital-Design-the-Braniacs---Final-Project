@@ -2,18 +2,11 @@
 # Compile of ID_testbench.v was successful.
 # Compile of ID_Check_testbench.v was successful.
 # Compile of ID_Check.v was successful.
-# Compile of Password_Check.v failed with 5 errors.
+# Compile of Password_Check.v was successful.
 # Compile of Password_Check_testbench.v was successful.
 # Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 1 failed with 5 errors.
-# Compile of ID_ROM.v was successful.
-# Compile of ID_testbench.v was successful.
-# Compile of ID_Check_testbench.v was successful.
-# Compile of ID_Check.v was successful.
-# Compile of Password_Check.v failed with 1 errors.
-# Compile of Password_Check_testbench.v was successful.
-# Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 1 failed with 1 error.
+# Compile of Password_Check1.v was successful.
+# 8 compiles, 0 failed with no errors.
 # Compile of ID_ROM.v was successful.
 # Compile of ID_testbench.v was successful.
 # Compile of ID_Check_testbench.v was successful.
@@ -21,108 +14,13 @@
 # Compile of Password_Check.v was successful.
 # Compile of Password_Check_testbench.v was successful.
 # Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 0 failed with no errors.
+# Compile of Password_Check1.v was successful.
+# 8 compiles, 0 failed with no errors.
 vsim -gui work.Password_Check_testbench -L altera_mf_ver -L altera_mf
 # vsim -gui work.Password_Check_testbench -L altera_mf_ver -L altera_mf 
-# Start time: 12:38:21 on May 09,2026
+# Start time: 15:54:28 on May 10,2026
 # Loading work.Password_Check_testbench
-# Loading work.Password_Check
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'digit'. The port definition is at: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Password_Check_testbench/DUT File: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check_testbench.v Line: 16
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'btn'. The port definition is at: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Password_Check_testbench/DUT File: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check_testbench.v Line: 16
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'internal_id'. The port definition is at: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Password_Check_testbench/DUT File: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check_testbench.v Line: 16
-add wave sim:/Password_Check_testbench/DUT/*
-run 1000 ns
-quit -sim
-# End time: 12:39:38 on May 09,2026, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 8
-# Compile of ID_ROM.v was successful.
-# Compile of ID_testbench.v was successful.
-# Compile of ID_Check_testbench.v was successful.
-# Compile of ID_Check.v was successful.
-# Compile of Password_Check.v was successful.
-# Compile of Password_Check_testbench.v was successful.
-# Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
-# vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench 
-# Start time: 12:39:48 on May 09,2026
-# Loading work.Password_Check_testbench
-# Loading work.Password_Check
-add wave sim:/Password_Check_testbench/DUT/*
-run 1000 ns
-quit -sim
-# End time: 12:41:05 on May 09,2026, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 2
-# Compile of ID_ROM.v was successful.
-# Compile of ID_testbench.v was successful.
-# Compile of ID_Check_testbench.v was successful.
-# Compile of ID_Check.v was successful.
-# Compile of Password_Check.v was successful.
-# Compile of Password_Check_testbench.v was successful.
-# Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
-# vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench 
-# Start time: 12:41:15 on May 09,2026
-# Loading work.Password_Check_testbench
-# Loading work.Password_Check
-add wave sim:/Password_Check_testbench/DUT/*
-run 1000 ns
-quit -sim
-# End time: 12:42:58 on May 09,2026, Elapsed time: 0:01:43
-# Errors: 0, Warnings: 2
-# Compile of ID_ROM.v was successful.
-# Compile of ID_testbench.v was successful.
-# Compile of ID_Check_testbench.v was successful.
-# Compile of ID_Check.v was successful.
-# Compile of Password_Check.v was successful.
-# Compile of Password_Check_testbench.v was successful.
-# Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
-# vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench 
-# Start time: 12:43:08 on May 09,2026
-# Loading work.Password_Check_testbench
-# Loading work.Password_Check
-# ** Error: (vsim-3033) Instantiation of 'Password_ROM' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /Password_Check_testbench File: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check_testbench.v Line: 18
-#         Searched libraries:
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/altera_mf
-#             C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/work
-# Error loading design
-# End time: 12:43:08 on May 09,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 2
-vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
-# vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench 
-# Start time: 12:44:05 on May 09,2026
-# Loading work.Password_Check_testbench
-# Loading work.Password_Check
-# ** Error: (vsim-3033) Instantiation of 'Password_ROM' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /Password_Check_testbench File: C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/Password_Check_testbench.v Line: 18
-#         Searched libraries:
-#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/altera_mf
-#             C:/ADD_Demos/Advanced-Digital-Design-the-Braniacs---Final-Project/theBrainiacs_FinalProject/sim_password/work
-# Error loading design
-# End time: 12:44:06 on May 09,2026, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-# Compile of ID_ROM.v was successful.
-# Compile of ID_testbench.v was successful.
-# Compile of ID_Check_testbench.v was successful.
-# Compile of ID_Check.v was successful.
-# Compile of Password_Check.v was successful.
-# Compile of Password_Check_testbench.v was successful.
-# Compile of PASSWORD_ROM.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
-# vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench 
-# Start time: 12:44:32 on May 09,2026
-# Loading work.Password_Check_testbench
-# Loading work.Password_Check
+# Loading work.Password_Check1
 # Loading work.PASSWORD_ROM
 # Loading altera_mf_ver.altsyncram
 # Loading altera_mf_ver.altsyncram_body
@@ -130,5 +28,5 @@ vsim -gui -L altera_mf_ver -L altera_mf work.Password_Check_testbench
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 add wave sim:/Password_Check_testbench/DUT/*
 run 1000 ns
-# End time: 13:08:26 on May 09,2026, Elapsed time: 0:23:54
-# Errors: 0, Warnings: 2
+# End time: 15:56:32 on May 10,2026, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 4
