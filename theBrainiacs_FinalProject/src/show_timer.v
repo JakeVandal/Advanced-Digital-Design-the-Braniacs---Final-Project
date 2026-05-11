@@ -1,7 +1,7 @@
 // Manav Patel
 //ECE: 6370
 
-//This moudle is a 1 second timer that will output a pulse when 1 second timer is reached this is done with embiding 3 counters withing each other all adding up to 50 millions.
+//This module is a 1 second timer that will output a pulse when 1 second timer is reached this is done with embedding 3 counters withing each other all adding up to 50 million.
 
 
 module onesecTimer_show(enable,signal_out,clk,rst);
@@ -16,7 +16,6 @@ module onesecTimer_show(enable,signal_out,clk,rst);
     //wire enable_100;
 
 //countTo100 DUT_countTo100(enable_100,signal_out,clk,rst);
-
 
     always@(posedge clk)
        begin
