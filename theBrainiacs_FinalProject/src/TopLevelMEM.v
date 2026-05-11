@@ -3,7 +3,7 @@
 //Lab4_PATEL_Manav - TEST VERSION
 // This test version hardcodes display to show 1234 to verify displays work
 
-module TopLevalMEM(
+module TopLevelMEM(
     input [3:0] Password_Switches,  // 4-bit switches for password entry
     input [3:0] Player1_Switches,   // 4-bit switches for guesses
     input RNG_Button,               // Button 2 - start game
